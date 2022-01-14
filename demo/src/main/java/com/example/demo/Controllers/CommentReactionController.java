@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping(path = "/commentreactions")
 public class CommentReactionController {
 
     private final CommentReactionService commentreactionServices;

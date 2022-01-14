@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping(path = "/posts")
 public class PostController {
 
     private final PostService postServices;

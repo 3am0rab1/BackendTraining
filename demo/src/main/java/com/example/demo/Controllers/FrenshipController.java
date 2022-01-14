@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping(path = "/frenships")
 public class FrenshipController {
 
     private final FrenshipService frenshipServices;

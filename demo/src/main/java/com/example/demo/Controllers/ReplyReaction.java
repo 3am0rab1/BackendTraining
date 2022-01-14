@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping(path = "/replyreactions")
 public class ReplyReaction {
     private final ReplyReactionService replyreactionServices;
 

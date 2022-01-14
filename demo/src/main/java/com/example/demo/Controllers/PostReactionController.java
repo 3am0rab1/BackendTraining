@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping(path = "/postreactions")
 public class PostReactionController {
 
     private final PostReactionService postreactionServices;
